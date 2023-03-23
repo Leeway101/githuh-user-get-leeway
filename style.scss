@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #191919 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+input{
+ width: 350px;
+ font-size: 25px;
+ padding: 10px 20px;
+ border-radius: 15px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.git-hub__icon {
+  margin-bottom: px;
+  width: 100px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.title {
+  font-size: 72px;
+  background-color: #3f3e3e;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin: 40px 0 ;
+}
+
+
+
+.git-wrapper {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  margin-bottom: 30px;
+  background: #0d1117 !important;
+  border-radius: 20px;
+  padding-left: 30px;
+}
+
+.user {
+  width: 400px;
+  padding: 50px 0px;
+}
+
+.user-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.user-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.user-name p:first-of-type {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.user-name p:last-of-type {
+  letter-spacing: 1px;
+  font-weight: 100 !important;
+  opacity: 0.8;
+  font-size: 13px;
+  line-height: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.user-bio {
+  font-weight: 200 !important;
+  opacity: 0.9;
+  word-spacing: 5px;
+  margin-top: 10px;
+}
+
+.user-changeBtn {
+  background: rgba(255, 255, 255, 0.2);
+  width: 350px;
+  border-radius: 9px;
+  height: 35px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+  opacity: 0.9;
+  border: none;
+}
+
+.user-changeBtn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid white;
+}
+
+.user-location p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.git-repo {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  
+  
+}
+.class{
+  margin-left: 50px;
+}
+nav {
+  width: 800px;
+  height: 100px !important;
+  padding: 30px 0px;
+  margin: 0;
+  margin-left: 50px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li {
+  /* width: 250px; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+nav ul li img {
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+nav ul li span {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  color: #fff !important;
+  opacity: 1;
+}
+
+.about-user {
+  margin-right: 50px;
+  margin-left: 50px;
+  border: 1px solid #3f3e3e;
+  height: 200px !important;
+  padding: 50px 30px;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.about-user i {
+  position: absolute;
+  font-size: 16px;
+  right: 0;
+  margin-right: 10px;
+  bottom: 90px;
+  /* top: ; */
+}
+
+.repo-title {
+  width: 100%;
+  display: flex;
+  margin: 20px 15px;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+.user-repo__cards {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+}
+
+.user-repo__cards-items {
+  width: 400px;
+  height: 110px;
+  border: 1px solid #3f3e3e;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.user-repo__cards-items h4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.repos-botom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.repos-botom #circle {
+  width: 13px !important;
+  height: 13px !important;
+  background: purple;
+  border-radius: 50%;
+}
+
+.user-repo__cards-items button {
+  width: 50px;
+  height: 20px;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+  background-color: rgba(187, 187, 187, 0.2);
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: rgb(147, 147, 147);
+  margin-right: 20px;
+  margin-top: 20px;
+}
